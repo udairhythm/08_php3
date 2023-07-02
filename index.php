@@ -17,9 +17,6 @@
 
 <body>
 
-
-
-
 <!-- Head[Start] -->
     <header>
         <nav class="navbar navbar-default">
@@ -53,7 +50,7 @@
             </fieldset>
         </div>
     </form>
-
+</body>
     
 
 <!-- Google Books -->
@@ -149,8 +146,3 @@ $get_count = count($books);
 
 
     <!-- Main[End] -->
-
-
-</body>
-
-</html>

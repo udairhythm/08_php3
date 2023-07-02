@@ -80,10 +80,9 @@ if ($status === false) {
         <div class="jumbotron">
             <fieldset>
                 <legend>お気に入り更新</legend>
-                <label>書籍名：<input type="text" name="book" value="<?= $result['name'] ?>"></label><br>
-                <label>URL：<input type="text" name="url" value="<?= $result['email'] ?>"></label><br>
-                <!-- <label>コメント：<input type="text" name="age" value="<?= $result['age'] ?>"></label><br> -->
-                <label>コメント：<textarea name="comment" rows="4" cols="40"> <?= $result['content'] ?> </textarea></label><br>
+                <label>書籍名：<input type="text" name="book" value="<?= $result['book'] ?>"></label><br>
+                <label>URL：<input type="text" name="url" value="<?= $result['url'] ?>"></label><br>
+                <label>コメント：<textarea name="comment" rows="4" cols="40"> <?= $result['comment'] ?> </textarea></label><br>
                 <input type="hidden" name="id" value="<?= $result['id'] ?>">
                 <input type="submit" value="更新" >
             </fieldset>

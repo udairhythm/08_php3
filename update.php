@@ -37,7 +37,7 @@ $stmt = $pdo->prepare('UPDATE gs_bm_table
 // 文字の場合 PDO::PARAM_STR
 $stmt->bindValue(':book', $book, PDO::PARAM_STR);
 $stmt->bindValue(':url', $url, PDO::PARAM_STR);
-$stmt->bindValue(':comment', $comment, PDO::PARAM_INT);
+$stmt->bindValue(':comment', $comment, PDO::PARAM_STR);
 $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 
 $status = $stmt->execute(); //実行
