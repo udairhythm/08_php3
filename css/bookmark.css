@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 18px;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.jumbotron p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.jumbotron p:last-child {
+    border-bottom: none;
+}

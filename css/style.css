@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 18px;
+}
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+form {
+    margin: 20px;
+}
+form input[type="text"],
+form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.loop_books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.loop_books_item {
+    width: 30%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.loop_books_item img {
+    width: 100%;
+}
